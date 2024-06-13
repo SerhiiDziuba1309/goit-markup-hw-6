@@ -151,24 +151,24 @@ ol {
     ),
     url(../images/people-office.jpg);
   background-color: #2e2f42;
-  padding: 188px 0;
   background-repeat: no-repeat;
   background-position: center;
   max-width: 1440px;
   background-size: cover;
   margin: 0 auto;
+  padding-bottom: 96px;
 }
 .solutions {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  margin-bottom: 48px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 496px;
+  padding-top: 64px;
+  padding-right: 52px;
+  padding-bottom: 72px;
+  padding-left: 52px;
 }
 .btn {
   cursor: pointer;
@@ -187,19 +187,12 @@ ol {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
 }
-.process {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #2e2f42;
-}
+
 /* S E C T I O N 2 */
 .our-activity {
   padding-top: 96px;
@@ -346,18 +339,24 @@ ol {
 }
 /* S E C T I O N 4 */
 .our-portfolio {
-  padding: 120px 0;
+  padding-top: 83px;
+  padding-bottom: 96px;
 }
-
+.process {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 48px;
+  gap: 48px;
 }
 .portfolio-list {
   box-sizing: border-box;
-  width: calc((100% - 48px) / 3);
   border-radius: 4px;
   background: #fff;
 }
@@ -748,6 +747,14 @@ input:checked + label > span {
   .container {
     width: 768px;
   }
+  .solutions {
+    font-size: 56px;
+    line-height: 1.07;
+    padding-top: 112px;
+    padding-right: 136px;
+    padding-bottom: 36px;
+    padding-left: 136px;
+  }
   .div-people {
     padding-left: 108px;
     padding-right: 108px;
@@ -765,6 +772,16 @@ input:checked + label > span {
   .team-work {
     flex-basis: calc((100% - 24px) / 2);
   }
+  .our-portfolio {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .portfolio {
+    gap: 72px 24px;
+  }
+  .portfolio-list {
+    width: calc((100% - 24px) / 2);
+  }
 }
 /* D E S K T O P */
 @media (min-width: 1158px) {
@@ -772,6 +789,17 @@ input:checked + label > span {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .effect {
+    padding: 188px 0;
+  }
+  .solutions {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 496px;
   }
   .our-activity {
     padding-top: 120px;
@@ -829,5 +857,15 @@ input:checked + label > span {
   .div-team {
     padding: 32px 0;
     margin: auto;
+  }
+  .our-portfolio {
+    padding: 120px 0;
+  }
+  .portfolio {
+    gap: 24px;
+    row-gap: 48px;
+  }
+  .portfolio-list {
+    width: calc((100% - 48px) / 3);
   }
 }
