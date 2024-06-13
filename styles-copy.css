@@ -32,12 +32,10 @@ ol {
 
 .container {
   width: 320px;
-  padding-right: 16px;
-  padding-left: 16px;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
-
 /* H E A D E R */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -200,8 +198,7 @@ ol {
 }
 /* S E C T I O N 2 */
 .our-activity {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding: 120px 0;
 }
 .visually-hidden {
   position: absolute;
@@ -217,12 +214,10 @@ ol {
 }
 .activity {
   display: flex;
-  flex-wrap: wrap;
-  /* gap: 24px; */
-  gap: 72px;
+  gap: 24px;
 }
 .acctivity-list {
-  /* flex-basis: calc((100% - 72px) / 4); */
+  flex-basis: calc((100% - 72px) / 4);
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
@@ -238,23 +233,21 @@ ol {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-  display: none;
 }
 .activity-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11111;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .activity-story {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  text-align: ;
 }
 /* S E C T I O N 3 */
 .people {
@@ -741,22 +734,7 @@ input:checked + label > span {
 }
 /* T A B L E T */
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-  .activity {
-    gap: 24px 72px;
-  }
-  .acctivity-list {
-    padding-right: 0;
-    width: calc((100% - 24px) / 2);
-  }
 }
 /* D E S K T O P */
-@media (min-width: 1158px) {
-  .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+@media screen and (min-width: 1158px) {
 }
