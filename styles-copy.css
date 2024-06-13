@@ -216,7 +216,7 @@ ol {
   display: flex;
   gap: 24px;
 }
-.acctivity-list {
+.activity-list {
   flex-basis: calc((100% - 72px) / 4);
   align-items: flex-start;
   justify-content: flex-start;
