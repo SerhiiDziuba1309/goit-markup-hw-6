@@ -796,10 +796,10 @@ input:checked + label > span {
   .solutions {
     font-size: 56px;
     line-height: 1.07;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 496px;
+    max-width: 496px; */
   }
   .our-activity {
     padding-top: 120px;
