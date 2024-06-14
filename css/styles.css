@@ -155,9 +155,10 @@ ol {
   background-position: center;
   max-width: 1440px;
   background-size: cover;
+  padding: 64px 0;
   margin: 0 auto;
-  padding-bottom: 96px;
 }
+
 .solutions {
   font-weight: 700;
   font-size: 36px;
@@ -165,10 +166,10 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding-top: 64px;
-  padding-right: 52px;
-  padding-bottom: 72px;
-  padding-left: 52px;
+  margin-bottom: 72px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 160px;
 }
 .btn {
   cursor: pointer;
@@ -747,13 +748,14 @@ input:checked + label > span {
   .container {
     width: 768px;
   }
+  .effect {
+    padding: 112px 0;
+  }
   .solutions {
     font-size: 56px;
     line-height: 1.07;
-    padding-top: 112px;
-    padding-right: 136px;
-    padding-bottom: 36px;
-    padding-left: 136px;
+    margin-bottom: 36px;
+    max-width: 496px;
   }
   .div-people {
     padding-left: 108px;
@@ -792,14 +794,14 @@ input:checked + label > span {
   }
   .effect {
     padding: 188px 0;
+    margin: 0 auto;
+    max-width: 1440px;
   }
   .solutions {
     font-size: 56px;
     line-height: 1.07;
-    /* margin-bottom: 48px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 496px; */
+    margin-bottom: 48px;
+    max-width: 496px;
   }
   .our-activity {
     padding-top: 120px;
