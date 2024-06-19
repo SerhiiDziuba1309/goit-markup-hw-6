@@ -206,6 +206,7 @@ ol {
 }
 
 .mob-menu-info {
+  margin-top: auto;
 }
 .mob-menu-info-list {
   display: flex;
@@ -220,6 +221,7 @@ ol {
 }
 .mob-menu-my-info {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -375,6 +377,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .activity-story {
   font-weight: 500;
@@ -400,6 +403,7 @@ ol {
 }
 .team-work {
   background-color: #ffffff;
+  width: 296px;
 }
 .team-list {
   display: flex;
@@ -574,6 +578,8 @@ ol {
 }
 .keller-logo {
   display: inline-block;
+  padding: 0;
+  margin-bottom: 16px;
 }
 
 .keller-text {
@@ -601,6 +607,8 @@ ol {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  text-align: center;
+  margin-bottom: 16px;
 }
 .keller-list {
   display: flex;
@@ -619,7 +627,6 @@ ol {
 .keller-form-div {
   flex-wrap: wrap;
   gap: 16px;
-  margin: 0 auto;
 }
 .keller-form-paragraf {
   margin-bottom: 16px;
@@ -628,7 +635,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin: 0 auto;
+  text-align: center;
 }
 .keller-form {
   display: flex;
@@ -911,6 +918,7 @@ input:checked + label > span {
   }
   .info-list {
     display: flex;
+
     flex-direction: column;
     gap: 12px;
   }
@@ -918,6 +926,7 @@ input:checked + label > span {
   }
   .my-info {
     font-weight: 400;
+    font-style: normal;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
@@ -968,11 +977,15 @@ input:checked + label > span {
     padding-right: 0;
     width: calc((100% - 24px) / 2);
   }
+  .activity-title {
+    text-align: left;
+  }
   .team-list {
     gap: 64px 24px;
   }
   .team-work {
     flex-basis: calc((100% - 24px) / 2);
+    width: 584px;
   }
   .our-portfolio {
     padding-top: 96px;
@@ -986,10 +999,9 @@ input:checked + label > span {
   }
   .keller-div {
     align-items: baseline;
+    width: 584px;
   }
   .keller-logo-div {
-    margin-left: 118px;
-    margin-right: 24px;
     display: block;
   }
   .keller-logo {
@@ -999,11 +1011,13 @@ input:checked + label > span {
   }
   .div-social {
     display: block;
-    padding-top: 96px;
+    margin-left: 24px;
   }
   .keller-form-div {
     display: block;
-    margin-left: 118px;
+  }
+  .keller-form-paragraf {
+    text-align: left;
   }
   .keller-form {
     margin-top: 16px;
@@ -1027,7 +1041,6 @@ input:checked + label > span {
     margin-right: 76px;
   }
   .info {
-    font-style: normal;
     font-weight: 400;
     margin-left: auto;
   }
@@ -1037,6 +1050,7 @@ input:checked + label > span {
   }
   .my-info {
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
   }
@@ -1142,6 +1156,7 @@ input:checked + label > span {
   .keller-div {
     align-items: baseline;
     flex-wrap: nowrap;
+    width: 100%;
   }
   .keller-logo-div {
     margin-right: 120px;
@@ -1164,10 +1179,10 @@ input:checked + label > span {
     width: 208px;
     height: 80px;
     margin-bottom: 0;
+    margin-right: 80px;
   }
   .keller-form-div {
     flex-direction: row;
-    margin-left: 80 px;
     display: block;
   }
   .keller-form {
