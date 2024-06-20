@@ -1003,6 +1003,7 @@ input:checked + label > span {
   }
   .keller-logo-div {
     display: block;
+    margin-right: 24px;
   }
   .keller-logo {
     margin-bottom: 16px;
@@ -1011,7 +1012,6 @@ input:checked + label > span {
   }
   .div-social {
     display: block;
-    margin-left: 24px;
   }
   .keller-form-div {
     display: block;
@@ -1156,7 +1156,7 @@ input:checked + label > span {
   .keller-div {
     align-items: baseline;
     flex-wrap: nowrap;
-    width: 100%;
+    width: 1158px;
   }
   .keller-logo-div {
     margin-right: 120px;
